@@ -1,6 +1,6 @@
 # 🏠 Real Estate Investment Advisor
 
-A full end-to-end data science project that predicts whether a property is a **good investment** and forecasts its **price 5 years into the future** using machine learning.
+A full end-to-end data analyst project that predicts whether a property is a **good investment** and forecasts its **price 5 years into the future** using machine learning.
 
 ---
 
