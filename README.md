@@ -96,8 +96,8 @@ Real Estate Investment Advisor/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/RajuKumar31/real-estate-investment-advisor.git
-cd real-estate-investment-advisor
+git clone https://github.com/RajuKumar31/Real-Estate-Investment-Advisor.git
+cd Real-Estate-Investment-Advisor
 ```
 
 **2. Install dependencies**
