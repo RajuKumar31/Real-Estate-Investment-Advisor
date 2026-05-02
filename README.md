@@ -137,6 +137,19 @@ A property is classified as **Good Investment** if it meets:
 
 ---
 
+## 📸 App Screenshots
+
+### Input Form
+![Input Form](screenshots/app_input.png)
+
+### ✅ Good Investment Result
+![Good Investment](screenshots/app_good_investment.png)
+
+### ❌ Not Recommended Result
+![Not Recommended](screenshots/app_not_recommended.png)
+
+---
+
 ## 👤 Author
 
 **Raju Kumar S**
