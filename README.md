@@ -147,6 +147,12 @@ A property is classified as **Good Investment** if it meets:
 ### ❌ Not Recommended Result
 ![Not Recommended](screenshots/app_not_recommended.png)
 
+# 🏠 Real Estate Investment Advisor
+
+A full end-to-end data science project that predicts whether a property is a **good investment** and forecasts its **price 5 years into the future** using machine learning.
+
+🚀 **Live App:** [Click here to try it](https://real-estate-investment-advisor-yxpgoauov5vn9pozuehhgj.streamlit.app/)
+
 ## 👤 Author
 
 **Raju Kumar S**
