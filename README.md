@@ -1,6 +1,6 @@
 # 🏠 Real Estate Investment Advisor
 
-A full end-to-end data analyst project that predicts whether a property is a **good investment** and forecasts its **price 5 years into the future** using machine learning.
+A full end-to-end data science project that predicts whether a property is a **good investment** and forecasts its **price 5 years into the future** using machine learning.
 
 ---
 
@@ -134,19 +134,6 @@ A property is classified as **Good Investment** if it meets:
 - Ready to Move **OR** BHK ≥ 3
 - Amenity Count ≥ 2
 - Nearby Schools ≥ 5 **OR** Nearby Hospitals ≥ 5
-
----
-
-## 📸 App Screenshots
-
-### Input Form
-![Input Form](screenshots/app_input.png)
-
-### ✅ Good Investment Result
-![Good Investment](screenshots/app_good_investment.png)
-
-### ❌ Not Recommended Result
-![Not Recommended](screenshots/app_not_recommended.png)
 
 ---
 
