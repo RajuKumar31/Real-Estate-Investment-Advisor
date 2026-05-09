@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/rajuk/OneDrive/Desktop/Own Project/Real Estate Investment
+  Advisor/mlruns/2/models/m-108920689a8143d3837b265d07b74ba0/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.9
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.11.1
+model_id: m-108920689a8143d3837b265d07b74ba0
+model_size_bytes: 486277
+model_uuid: m-108920689a8143d3837b265d07b74ba0
+prompts: null
+run_id: 0f634d6d45964f63bc643bdbe02494da
+utc_time_created: '2026-05-08 13:25:27.511440'

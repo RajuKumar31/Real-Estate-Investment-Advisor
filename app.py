@@ -52,7 +52,6 @@ with col2:
     price = st.number_input("Price (Lakhs)", min_value=10.0, max_value=500.0, value=150.0, step=5.0)
     year_built = st.slider("Year Built", 1990, 2024, 2010)
     floor_no = st.number_input("Floor Number", min_value=0, max_value=50, value=3)
-    total_floors = st.number_input("Total Floors", min_value=1, max_value=50, value=10)
 
 with col3:
     st.subheader("✨ Amenities & Features")
@@ -94,7 +93,6 @@ if st.button("🔍 Analyse Investment", use_container_width=True):
     age_of_property = 2024 - year_built
     price_per_sqft = round(price / size, 4)
     infrastructure_score = nearby_schools + nearby_hospitals
-    floor_ratio = round(min(floor_no, total_floors) / total_floors, 4)
 
     if price <= 150:
         price_segment = 0
@@ -123,8 +121,7 @@ if st.button("🔍 Analyse Investment", use_container_width=True):
         'Price_in_Lakhs': price,
         'Price_per_SqFt': price_per_sqft,
         'Furnished_Status': furnished_map[furnished],
-        'Floor_No': min(floor_no, total_floors),
-        'Total_Floors': total_floors,
+        'Floor_No': floor_no,
         'Age_of_Property': age_of_property,
         'Nearby_Schools': nearby_schools,
         'Nearby_Hospitals': nearby_hospitals,
@@ -135,7 +132,6 @@ if st.button("🔍 Analyse Investment", use_container_width=True):
         'Availability_Status': availability_map[availability],
         'Amenity_Count': amenity_count,
         'Infrastructure_Score': infrastructure_score,
-        'Floor_Ratio': floor_ratio,
         'Price_Segment': price_segment,
         'Transport_Score': transport_map[transport],
         'Age_Group': age_group
